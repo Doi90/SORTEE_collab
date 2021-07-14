@@ -7,7 +7,8 @@ library(ggplot2)
 
 mtcars %>%
   filter(cyl >= 6) %>%
-  summarise(mean_hp = mean(hp))
+  summarise(mean_hp = mean(hp),
+            mean_cyl = mean(cyl))
 
 ### Plot
 
