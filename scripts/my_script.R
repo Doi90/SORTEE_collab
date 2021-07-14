@@ -15,7 +15,7 @@ mtcars %>%
 ggplot(mtcars,
        aes(x = cyl,
            y = hp)) +
-  geom_point()
+  geom_point(col="darkgreen")
 
 #####
 
